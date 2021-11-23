@@ -6,7 +6,14 @@ name = data.get(1)
 print(name)
 
 # not sure whether the key is present or not then go with get(key, message)
-print(data.get(4,"Not Found"))
+print(data.get(4, "Not Found"))
 
 value = data.__getitem__(2)
 print(value)
+
+keys = ['rakesh', 'sandy', 'santhosh']
+value = ['java', 'python', 'mt']
+
+# to combine two list into dist use zip
+newdata = dict(zip(keys, value))
+print(newdata)
