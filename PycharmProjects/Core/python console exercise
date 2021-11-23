@@ -1,0 +1,56 @@
+#numeric operations
+
+>>> 2+3
+>>> 8+9
+>>> 4*6
+>>> 8/4
+>>> 8+9-10
+
+#String operation with int
+
+>>>"john"*3
+'johnjohnjohn'
+
+combination =['john',34]   --> allowed
+
+>>>3**3 ==> 3*3*3 => 27
+
+print('display')
+print("navin's laptop")
+print("navin\' laptop")
+
+names =['rakesh','fun','trip']
+names [0]
+10 *'raja'
+'rajarajarajarajarajarajarajarajarajaraja'
+
+
+#new line /n
+#double quotes  /"
+#single quotes  /'
+
+#/n path problem
+
+print('c:\docs\new')
+==> c:\docs
+ew
+
+so \n is considered as new line in order to avoid this problem need to use raw line
+with the below options
+
+print(r'c:\docs\newfile')
+
+variables
+
+x=30
+y=20
+z = x + y
+
+name ='rakesh'
+name + ' holiday' => rakesh holiday
+
+
+
+
+
+
