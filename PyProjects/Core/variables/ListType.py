@@ -1,3 +1,4 @@
+# list is mutable in nature where we use square bracker []
 nums = [25, 12, 36, 95, 14]
 
 # returns the first element by using both +ve and -ve ranges 25
@@ -32,7 +33,7 @@ print(names)
 # add multiple values in the list
 names.extend(["trip", "holiday", "game", "politics"])
 
-nums.extend([20, 34, 56.67])
+nums.extend([20, 34,36, 56.67])
 print(nums)
 
 print(sum(nums))
@@ -49,3 +50,7 @@ print(names)
 del names[4:]
 # ['rakesh', 'ranjith', 'trip', 'holiday']
 print(names)
+
+# count will let know the occurences of specified element
+print("the count is "+nums.count(36).__str__())
+
